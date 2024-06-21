@@ -27,8 +27,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "dev",
-    "@builder.io/qwik-city": "dev",
+    "@builder.io/qwik": "https://pkg.pr.new/@builder.io/qwik@3a3558c",
+    "@builder.io/qwik-city": "https://pkg.pr.new/@builder.io/qwik-city@3a3558c",
     "@qwik-ui/headless": "^0.4.4",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.12.7",

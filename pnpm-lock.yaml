@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@builder.io/qwik':
-        specifier: dev
-        version: 1.5.7-dev20240621060015(@types/node@20.14.7)(undici@6.19.2)
+        specifier: https://pkg.pr.new/@builder.io/qwik@3a3558c
+        version: https://pkg.pr.new/@builder.io/qwik@3a3558c(@types/node@20.14.7)(undici@6.19.2)
       '@builder.io/qwik-city':
-        specifier: dev
-        version: 1.5.7-dev20240621060015(@types/node@20.14.7)(rollup@4.18.0)
+        specifier: https://pkg.pr.new/@builder.io/qwik-city@3a3558c
+        version: https://pkg.pr.new/@builder.io/qwik-city@3a3558c(@types/node@20.14.7)(rollup@4.18.0)
       '@qwik-ui/headless':
         specifier: ^0.4.4
-        version: 0.4.4(@builder.io/qwik@1.5.7-dev20240621060015(@types/node@20.14.7)(undici@6.19.2))
+        version: 0.4.4(@builder.io/qwik@https://pkg.pr.new/@builder.io/qwik@3a3558c(@types/node@20.14.7)(undici@6.19.2))
       '@types/eslint':
         specifier: ^8.56.10
         version: 8.56.10
@@ -53,12 +53,14 @@ importers:
 
 packages:
 
-  '@builder.io/qwik-city@1.5.7-dev20240621060015':
-    resolution: {integrity: sha512-7WMQJ0F/Jf3BusQisxY1tO9D/pY0IGNE1SNDO0BS+vzOEFK5wNRvKOSW3BdYgUTRcEnNTT/2cnQl4EpFAwLnhg==}
+  '@builder.io/qwik-city@https://pkg.pr.new/@builder.io/qwik-city@3a3558c':
+    resolution: {tarball: https://pkg.pr.new/@builder.io/qwik-city@3a3558c}
+    version: 1.5.7-dev20240621082819
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
 
-  '@builder.io/qwik@1.5.7-dev20240621060015':
-    resolution: {integrity: sha512-m9yADhWNK2qSwXe7u+o+IqnyXd9/KozFSM1bS9oYqcU7dXIFmKaWuKAwn2Kzi5nmVGnddTSv3qX0/9t52YQDxg==}
+  '@builder.io/qwik@https://pkg.pr.new/@builder.io/qwik@3a3558c':
+    resolution: {tarball: https://pkg.pr.new/@builder.io/qwik@3a3558c}
+    version: 1.5.7-dev20240621082819
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -378,6 +380,7 @@ packages:
 
   '@qwik-ui/headless@0.4.4':
     resolution: {integrity: sha512-IL43yt5vdRt8FQGXVBhTAzMYnYm77+1AadFV/LHXDPwZ2oL7gBk774l2/8eXtHx0zm6GnP52HY9TLx8dXTvdxw==}
+    version: 0.4.4
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@builder.io/qwik': ^1.5.5
@@ -1743,7 +1746,7 @@ packages:
 
 snapshots:
 
-  '@builder.io/qwik-city@1.5.7-dev20240621060015(@types/node@20.14.7)(rollup@4.18.0)':
+  '@builder.io/qwik-city@https://pkg.pr.new/@builder.io/qwik-city@3a3558c(@types/node@20.14.7)(rollup@4.18.0)':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -1765,7 +1768,7 @@ snapshots:
       - supports-color
       - terser
 
-  '@builder.io/qwik@1.5.7-dev20240621060015(@types/node@20.14.7)(undici@6.19.2)':
+  '@builder.io/qwik@https://pkg.pr.new/@builder.io/qwik@3a3558c(@types/node@20.14.7)(undici@6.19.2)':
     dependencies:
       csstype: 3.1.3
       undici: 6.19.2
@@ -2016,9 +2019,9 @@ snapshots:
 
   '@oddbird/popover-polyfill@0.4.3': {}
 
-  '@qwik-ui/headless@0.4.4(@builder.io/qwik@1.5.7-dev20240621060015(@types/node@20.14.7)(undici@6.19.2))':
+  '@qwik-ui/headless@0.4.4(@builder.io/qwik@https://pkg.pr.new/@builder.io/qwik@3a3558c(@types/node@20.14.7)(undici@6.19.2))':
     dependencies:
-      '@builder.io/qwik': 1.5.7-dev20240621060015(@types/node@20.14.7)(undici@6.19.2)
+      '@builder.io/qwik': https://pkg.pr.new/@builder.io/qwik@3a3558c(@types/node@20.14.7)(undici@6.19.2)
       '@floating-ui/core': 1.6.2
       '@floating-ui/dom': 1.6.5
       '@oddbird/popover-polyfill': 0.4.3
